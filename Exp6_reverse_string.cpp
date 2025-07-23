@@ -15,3 +15,5 @@ int main() {
     cout << "Reversed PRN: " << s << endl;
     return 0;
 }
+/*Enter your PRN: 2345
+Reversed PRN: 5432*/
