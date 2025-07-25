@@ -45,4 +45,22 @@ This experiment demonstrates the use of decision making control structures (if, 
 
 # algorithms:
 
+# Even Values:
+
+1. Start
+2. Declare an integer variable `a`.  
+3. Prompt the user with the message: "Enter an integer:".  
+4. Read the input value from the user and store it in variable `a`.  
+5. Initialize a `for` loop control variable `i` with value 0.  
+6. Repeat the following steps while `i` is less than or equal to `a`:  
+   - Check if `i` is even (i.e., `i % 2 == 0`).  
+     - If true, print the value of `i` followed by a space.  
+   - Increment `i` by 1.  
+7. End the loop when `i` becomes greater than `a`.  
+8. End  
+
+# Printing SIT five times:
+
+
+
 
