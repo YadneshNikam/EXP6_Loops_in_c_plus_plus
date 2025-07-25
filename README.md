@@ -61,6 +61,53 @@ This experiment demonstrates the use of decision making control structures (if, 
 
 # Printing SIT five times:
 
+1. Start
+2. Initialize string variable a with "SIT".
+3. For i = 0 to 4 (inclusive), do:
+    a. Print the value of a followed by a newline.
+4. End For loop.
+5. End
+
+#  Password:
+1. Start
+2. Initialize string a as the correct password "qwertz".
+3. Declare string variable b to store user input.
+4. Initialize integer variable trys to 5.
+5. Prompt the user: "Enter a password:"
+6. Read input into variable b.
+7. While b is not equal to a, do:
+    a. Decrement trys by 1.
+    b. If trys equals 0:
+        i. Print "You have exceeded the maximum number of attempts."
+        ii. Print "The system will be locked for 1 minute."
+        iii. Terminate the program.
+    c. Else:
+        i. Print "Incorrect password. Try again:"
+        ii. Print "Hint: The password is the first five letters of your keyboard."
+        iii. Prompt the user: "Enter a password:"
+        iv. Read input into b.
+8. If b equals a:
+    a. Print "Password accepted!"
+9. End
+
+
+# reverse of a string:
+
+1. Start
+2. Declare integer variables: prn, a, s.
+3. Initialize s = 0.
+4. Prompt the user: "Enter your PRN:"
+5. Read input into prn.
+6. While prn > 0, do:
+    a. a = prn % 10  
+    b. prn = prn / 10 
+    c. s = s * 10 + a 
+7. End While loop
+8. Print "Reversed PRN: " followed by s.
+9. End
+
+
+
 
 
 
