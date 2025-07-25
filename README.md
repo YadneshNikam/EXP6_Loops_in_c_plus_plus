@@ -45,7 +45,7 @@ This experiment demonstrates the use of decision making control structures (if, 
 
 # algorithms:
 
-# Even Values:
+# 1.Even Values:
 
 1. Start
 2. Declare an integer variable `a`.  
@@ -59,7 +59,7 @@ This experiment demonstrates the use of decision making control structures (if, 
 7. End the loop when `i` becomes greater than `a`.  
 8. End  
 
-# Printing SIT five times:
+# 2.Printing SIT five times:
 
 1. Start
 2. Initialize string variable a with "SIT".
@@ -68,7 +68,7 @@ This experiment demonstrates the use of decision making control structures (if, 
 4. End For loop.
 5. End
 
-#  Password:
+#  3.Password:
 1. Start
 2. Initialize string a as the correct password "qwertz".
 3. Declare string variable b to store user input.
@@ -91,7 +91,7 @@ This experiment demonstrates the use of decision making control structures (if, 
 9. End
 
 
-# reverse of a string:
+# 4.reverse of a string:
 
 1. Start
 2. Declare integer variables: prn, a, s.
