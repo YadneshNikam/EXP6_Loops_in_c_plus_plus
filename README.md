@@ -107,6 +107,75 @@ This experiment demonstrates the use of decision making control structures (if, 
 9. End
 
 
+# 5.Alphabet_Pattern:
+  
+1. Initialize `n` as the number of rows (e.g., 4).  
+2. Initialize a character variable `ch` with 'A'.  
+3. Loop `i` from 1 to `n` (rows):  
+   - For each row, loop `j` from 1 to `i` (columns in the row):  
+     - Print the current character `ch`.  
+     - Increment `ch` to the next alphabet character.  
+   - Move to the next line.  
+4. End.
+
+# 6.Floyd-s_Series:
+
+1. Initialize `n` as the number of rows (e.g., 4).  
+2. Initialize an integer `x` as 1 to start the series.  
+3. Loop `i` from 1 to `n`:  
+   - Loop `j` from 1 to `i`:  
+     - Print `x`.  
+     - Increment `x` by 1.  
+     - Print a space if not at the end of the row.  
+   - Move to the next line.  
+4. End.
+
+# 7.Hourglass_pattern:
+
+1. Initialize `n` as the number of rows in the largest part of the hourglass (e.g., 5).  
+2. For the upper part:  
+   - Loop `i` from `n` down to 1:  
+     - Print `(n - i)` spaces.  
+     - Loop `k` from 1 to `i`:  
+       - Print `*` followed by a space.  
+     - Move to next line.  
+3. For the lower part:  
+   - Loop `i` from 2 to `n`:  
+     - Print `(n - i)` spaces.  
+     - Loop `k` from 1 to `i`:  
+       - Print `*` followed by a space.  
+     - Move to next line.  
+4. End.
+
+# 8.pattern_1:
+ 
+1. Set `n` as the number of rows (e.g., 5).  
+2. Loop `i` from 1 to `n`:  
+   - For each row, loop `j` from 1 to `i`:  
+     - Print `*`.  
+   - Move to the next line.  
+3. End.
+
+# 9.pattern_2:
+
+1. Initialize `n` as the number of rows (e.g., 5).  
+2. Loop `i` from 1 to `n`:  
+   - Loop `j` from `i` to `n`:  
+     - Print `*`.  
+   - Move to the next line.  
+3. End.
+
+# 10.Test: 
+  
+1. Loop `i` from 1 to 2 (outer loop):  
+   - Print "Outer:" followed by the current value of `i`.  
+   - Loop `j` from 1 to 2 (inner loop):  
+     - Print "Inner:" followed by value of `j`.  
+2. End.
+
+
+
+
 
 
 
