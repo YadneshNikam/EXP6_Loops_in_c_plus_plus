@@ -107,71 +107,83 @@ This experiment demonstrates the use of decision making control structures (if, 
 9. End
 
 
+Certainly! Below are the clear, stepwise, human-friendly algorithms for **all the provided codes**, written in the same style as your example.
+
 # 5.Alphabet_Pattern:
-  
-1. Initialize `n` as the number of rows (e.g., 4).  
-2. Initialize a character variable `ch` with 'A'.  
-3. Loop `i` from 1 to `n` (rows):  
-   - For each row, loop `j` from 1 to `i` (columns in the row):  
+
+1. Start  
+2. Declare integer variables `i` and `j`.  
+3. Declare a character variable `ch` and initialize it to `'A'`.  
+4. Set the total number of rows `n = 4`.  
+5. For `i` from 1 to `n`:  
+   - For `j` from 1 to `i`:  
      - Print the current character `ch`.  
-     - Increment `ch` to the next alphabet character.  
+     - Increment the character `ch` to the next alphabet letter.  
    - Move to the next line.  
-4. End.
+6. End.
 
 # 6.Floyd-s_Series:
 
-1. Initialize `n` as the number of rows (e.g., 4).  
-2. Initialize an integer `x` as 1 to start the series.  
-3. Loop `i` from 1 to `n`:  
-   - Loop `j` from 1 to `i`:  
-     - Print `x`.  
+1. Start  
+2. Declare integer variables `i`, `j`, and `x`.  
+3. Initialize `x = 1` (starting number for Floyd’s series).  
+4. Set the total number of rows `n = 4`.  
+5. For `i` from 1 to `n`:  
+   - For `j` from 1 to `i`:  
+     - Print the current value of `x`.  
      - Increment `x` by 1.  
-     - Print a space if not at the end of the row.  
+     - If `j` is not the last column in the row, print a space.  
    - Move to the next line.  
-4. End.
+6. End.
 
 # 7.Hourglass_pattern:
 
-1. Initialize `n` as the number of rows in the largest part of the hourglass (e.g., 5).  
-2. For the upper part:  
-   - Loop `i` from `n` down to 1:  
-     - Print `(n - i)` spaces.  
-     - Loop `k` from 1 to `i`:  
-       - Print `*` followed by a space.  
-     - Move to next line.  
-3. For the lower part:  
-   - Loop `i` from 2 to `n`:  
-     - Print `(n - i)` spaces.  
-     - Loop `k` from 1 to `i`:  
-       - Print `*` followed by a space.  
-     - Move to next line.  
-4. End.
+1. Start  
+2. Declare integer variables as needed.  
+3. Set the maximum number of stars in a row `n = 5`.  
+4. For the upper half of the hourglass (including middle row):  
+   - For `i` from `n` down to 1:  
+     - Print `(n - i)` spaces for alignment.  
+     - Print `i` stars separated by a space.  
+     - Move to the next line.  
+5. For the lower half of the hourglass:  
+   - For `i` from 2 to `n`:  
+     - Print `(n - i)` spaces for alignment.  
+     - Print `i` stars separated by a space.  
+     - Move to the next line.  
+6. End.
 
 # 8.pattern_1:
- 
-1. Set `n` as the number of rows (e.g., 5).  
-2. Loop `i` from 1 to `n`:  
-   - For each row, loop `j` from 1 to `i`:  
-     - Print `*`.  
+
+1. Start  
+2. Declare integer variables `i` and `j`.  
+3. Set the total number of rows `n = 5`.  
+4. For `i` from 1 to `n`:  
+   - For `j` from 1 to `i`:  
+     - Print `*` (star).  
    - Move to the next line.  
-3. End.
+5. End.
 
 # 9.pattern_2:
 
-1. Initialize `n` as the number of rows (e.g., 5).  
-2. Loop `i` from 1 to `n`:  
-   - Loop `j` from `i` to `n`:  
-     - Print `*`.  
+1. Start  
+2. Declare integer variables `i` and `j`.  
+3. Set the total number of rows `n = 5`.  
+4. For `i` from 1 to `n`:  
+   - For `j` from `i` to `n`:  
+     - Print `*` (star).  
    - Move to the next line.  
+5. End.
+
+# 10.Test:
+
+1. Start  
+2. For `i` from 1 to 2 (outer loop):  
+   - Print `"Outer:"` followed by the value of `i`.  
+   - For `j` from 1 to 2 (inner loop):  
+     - Print `"Inner:"` followed by the value of `j`.  
 3. End.
 
-# 10.Test: 
-  
-1. Loop `i` from 1 to 2 (outer loop):  
-   - Print "Outer:" followed by the current value of `i`.  
-   - Loop `j` from 1 to 2 (inner loop):  
-     - Print "Inner:" followed by value of `j`.  
-2. End.
 
 
 
